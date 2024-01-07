@@ -16,6 +16,7 @@ Algorithms project will contain some commonly asked/used data structure solution
 - [Next permutation](src/main/java/org/algorithms/dataStructures/array/NextPermutation.java)
 - [Quick Sort](src/main/java/org/algorithms/dataStructures/array/QuickSort.java)
 - [Trapping Rain Water](src/main/java/org/algorithms/dataStructures/array/TrappingRainWater.java)
+- [Bus Routes](src/main/java/org/algorithms/dataStructures/array/BusRoutes.java)
 
 ## Backtracking
 
@@ -63,3 +64,6 @@ Algorithms project will contain some commonly asked/used data structure solution
 - [Lowest Common Ancestor](src/main/java/org/algorithms/dataStructures/tree/LowestCommonAncestor.java)
 - [Distance between two node](src/main/java/org/algorithms/dataStructures/tree/TwoNodeDistance.java)
 
+## Union Find
+
+- [Evaluate Division](src/main/java/org/algorithms/dataStructures/unionFind/EvaluateDivision.java)
