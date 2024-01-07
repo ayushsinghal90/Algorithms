@@ -19,7 +19,7 @@ import java.util.List;
  */
 public class MergeIntervals {
     /**
-     * Main function to demonstrate the medianOfArrays method.
+     * Main function to demonstrate the merge interval.
      *
      * @param args command line arguments (not used in this example)
      */

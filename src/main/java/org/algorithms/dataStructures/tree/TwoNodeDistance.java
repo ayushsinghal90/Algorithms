@@ -18,7 +18,7 @@ import static org.algorithms.dataStructures.tree.LowestCommonAncestor.lca;
  */
 public class TwoNodeDistance {
     /**
-     * Main function to demonstrate the medianOfArrays method.
+     * Main function to demonstrate the findDist method.
      *
      * @param args command line arguments (not used in this example)
      */

@@ -4,18 +4,34 @@ import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * Given a matrix mat[][] of size N x M. The task is to find the largest rectangular sub-matrix by area whose sum is 0.
+ * If there are multiple solutions return the rectangle which starts from minimum column index.
+ * If you still have multiple solutions return the one having the least width
+ * (number of columns included in the sub-matrix) starting from the minimum row index.
+ * If no such matrix is present return a zero (0) size matrix.
+ * <p>
+ * See: <a href="https://www.geeksforgeeks.org/problems/largest-rectangular-sub-matrix-whose-sum-is-0/1">Question</a>
+ * <p>
+ * Time Complexity: O(N*M*M).
+ * <p>
+ * Auxiliary Space: O(N*M).
+ *
+ * @author Ayush Singhal
+ */
 public class RectangleSumZero {
-    static final int MAX = 100;
-
-    // This function basically finds largest 0
-    // sum subarray in temp[0..n-1]. If 0 sum
-    // does't exist, then it returns false. Else
-    // it returns true and sets starting and
-    // ending indexes as starti and endj.
+    /**
+     * Checks if there is a sub-matrix with a zero-sum in the given matrix.
+     *
+     * @param temp:   The temporary array for storing cumulative sum.
+     * @param starti: The start index of the sub-matrix.
+     * @param endj:   The end index of the sub-matrix.
+     * @param n:      The size of the array.
+     * @return True if a zero-sum sub-matrix exists, otherwise false.
+     */
     static boolean sumZero(int[] temp, int[] starti, int[] endj, int n) {
-
         // Map to store the previous sums
-        Map<Integer, Integer> presum = new HashMap<>();
+        Map<Integer, Integer> previousSum = new HashMap<>();
         int sum = 0;
 
         // Initialize length of sub-array with sum 0
@@ -40,30 +56,27 @@ public class RectangleSumZero {
             }
 
             // Look for this sum in Hash table
-            if (presum.containsKey(sum)) {
+            if (previousSum.containsKey(sum)) {
 
                 // store previous max_length so
-                // that we can` check max_length
+                // that we can check max_length
                 // is updated or not
                 int old = max_length;
 
-                // If this sum is seen before,
-                // then update max_len
-                max_length = Math.max(max_length, i - presum.get(sum));
+                // Update max_len if this sum is seen before,
+                max_length = Math.max(max_length, i - previousSum.get(sum));
 
                 if (old < max_length) {
-
                     // If max_length is updated then
-                    // enter and update start and end
-                    // point of array
+                    // update enter and update start and end of array
                     endj[0] = i;
-                    starti[0] = presum.get(sum) + 1;
+                    starti[0] = previousSum.get(sum) + 1;
                 }
             } else {
 
                 // Else insert this sum with
                 // index in hash table
-                presum.put(sum, i);
+                previousSum.put(sum, i);
             }
         }
 
@@ -71,50 +84,32 @@ public class RectangleSumZero {
         return (max_length != 0);
     }
 
-    // The main function that finds Largest rectangle
-    // sub-matrix in a[][] whose sum is 0.
+    /**
+     * Finds and prints the zero-sum sub-matrix with the maximum area.
+     *
+     * @param a:   The input matrix.
+     * @param row: The number of rows in the matrix.
+     * @param col: The number of columns in the matrix.
+     */
     static void sumZeroMatrix(int[][] a, int row, int col) {
         int[] temp = new int[row];
 
-        // Variables to store the final output
         int fup = 0, fdown = 0, fleft = 0, fright = 0;
         int maxl = Integer.MIN_VALUE;
 
-        // Set the left column
         for (int left = 0; left < col; left++) {
-
-            // Initialize all elements of temp as 0
             Arrays.fill(temp, 0);
 
-            // Set the right column for the left column
-            // set by outer loop
             for (int right = left; right < col; right++) {
-
-                // Calculate sum between current left
-                // and right for every row 'i'
                 for (int i = 0; i < row; i++) {
                     temp[i] += a[i][right];
                 }
 
                 int[] up = new int[1];
                 int[] down = new int[1];
-
-                // Find largest subarray with 0 sum in
-                // temp[]. The sumZero() function also
-                // sets values of start and finish. So
-                // 'sum' is sum of rectangle between (start,
-                // left) and (finish, right) which is
-                // boundary columns strictly as left and
-                // right.
                 boolean s = sumZero(temp, up, down, row);
-
                 int ele = (down[0] - up[0] + 1) * (right - left + 1);
 
-                // Compare no. of elements with previous
-                // no. of elements in sub-Matrix.
-                // If new sub-matrix has more elements
-                // then update maxl and final boundaries
-                // like fup, fdown, fleft, fright
                 if (s && ele > maxl) {
                     fup = up[0];
                     fdown = down[0];
@@ -125,16 +120,11 @@ public class RectangleSumZero {
             }
         }
 
-        // If there is no change in boundaries
-        // than check if a[0][0] is 0
-        // If it not zero then print
-        // that no such zero-sum sub-matrix exists
         if (fup == 0 && fdown == 0 && fleft == 0 && fright == 0 && a[0][0] != 0) {
             System.out.println("No zero-sum sub-matrix exists");
             return;
         }
 
-        // Print final values
         for (int j = fup; j <= fdown; j++) {
             for (int i = fleft; i <= fright; i++) {
                 System.out.print(a[j][i] + " ");
@@ -143,12 +133,12 @@ public class RectangleSumZero {
         }
     }
 
-    // Driver program to test above functions
+    /**
+     * Driver program to test the above functions.
+     */
     public static void main(String[] args) {
         int[][] a = { { 9, 7, 16, 5 }, { 1, -6, -7, 3 }, { 1, 8, 7, 9 }, { 7, -2, 0, 10 } };
         int row = 4, col = 4;
         sumZeroMatrix(a, row, col);
     }
 }
-
-// This code is contributed by shiv1o43g

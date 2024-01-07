@@ -56,7 +56,7 @@ public class MergeSortedArray {
     }
 
     /**
-     * Main function to demonstrate the medianOfArrays method.
+     * Main function to demonstrate the merge sort.
      *
      * @param args command line arguments (not used in this example)
      */

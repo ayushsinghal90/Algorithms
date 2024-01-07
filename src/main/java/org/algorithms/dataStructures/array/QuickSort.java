@@ -16,7 +16,7 @@ package org.algorithms.dataStructures.array;
  */
 public class QuickSort {
     /**
-     * Main function to demonstrate the medianOfArrays method.
+     * Main function to demonstrate the quickSort method.
      *
      * @param args command line arguments (not used in this example)
      */

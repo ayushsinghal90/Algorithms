@@ -16,7 +16,7 @@ import java.io.IOException;
  */
 class LowestCommonAncestor {
     /**
-     * Main function to demonstrate the medianOfArrays method.
+     * Main function to demonstrate the lca method.
      *
      * @param args command line arguments (not used in this example)
      */

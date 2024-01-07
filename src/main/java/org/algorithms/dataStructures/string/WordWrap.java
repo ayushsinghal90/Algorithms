@@ -17,7 +17,7 @@ import java.io.InputStreamReader;
  */
 class WordWrap {
     /**
-     * Main function to demonstrate the medianOfArrays method.
+     * Main function to demonstrate the wordWrap method.
      *
      * @param args command line arguments (not used in this example)
      */

@@ -19,7 +19,7 @@ import java.io.IOException;
  */
 class LongestRepeatingSequence {
     /**
-     * Main function to demonstrate the medianOfArrays method.
+     * Main function to demonstrate the LongestRepeatingSubsequence method.
      *
      * @param args command line arguments (not used in this example)
      */

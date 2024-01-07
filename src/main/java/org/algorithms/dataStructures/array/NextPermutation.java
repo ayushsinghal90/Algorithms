@@ -13,7 +13,7 @@ package org.algorithms.dataStructures.array;
  */
 public class NextPermutation {
     /**
-     * Main function to demonstrate the medianOfArrays method.
+     * Main function to demonstrate the nextPermutation method.
      *
      * @param args command line arguments (not used in this example)
      */

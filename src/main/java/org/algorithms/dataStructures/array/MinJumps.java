@@ -20,7 +20,7 @@ import java.io.IOException;
 class MinJumps {
 
     /**
-     * Main function to demonstrate the medianOfArrays method.
+     * Main function to demonstrate the minJumps method.
      *
      * @param args command line arguments (not used in this example)
      */
