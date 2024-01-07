@@ -17,3 +17,8 @@ Algorithms project will contain some commonly asked/used data structure solution
 - [Quick Sort](src/main/java/org/algorithms/dataStructures/array/QuickSort.java)
 - [Trapping Rain Water](src/main/java/org/algorithms/dataStructures/array/TrappingRainWater.java)
 
+## Tree
+
+- [Build Tree](src/main/java/org/algorithms/dataStructures/tree/BuildTree.java)
+- [Lowest Common Ancestor](src/main/java/org/algorithms/dataStructures/tree/LowestCommonAncestor.java)
+- [Distance between two node](src/main/java/org/algorithms/dataStructures/tree/TwoNodeDistance.java)
