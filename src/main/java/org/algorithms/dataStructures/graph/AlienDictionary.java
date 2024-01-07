@@ -1,67 +1,28 @@
 package org.algorithms.dataStructures.graph;
 
-import java.util.Arrays;
-import java.util.Comparator;
-import java.util.Scanner;
-
+/**
+ * Given a sorted dictionary of an alien language having N words and k starting alphabets of standard dictionary.
+ * Find the order of characters in the alien language.
+ * <p>
+ * See: <a href="https://www.geeksforgeeks.org/problems/alien-dictionary/1">Question</a>
+ * <p>
+ * Time Complexity: O(V + E), where V is the number of character(vertices) and E is the number of words.
+ * <p>
+ * Auxiliary Space: O(V).
+ *
+ * @author Ayush Singhal
+ */
 class AlienDictionary {
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-
-        int t = Integer.parseInt(sc.next());
-        while (t-- > 0) {
-            int n = Integer.parseInt(sc.next());
-            int k = Integer.parseInt(sc.next());
-
-            String[] words = new String[n];
-
-            for (int i = 0; i < n; i++) {
-                words[i] = sc.next();
-            }
-
-            String order = findOrder(words, n, k);
-            if (order.length() == 0) {
-                System.out.println(0);
-                continue;
-            }
-            String[] temp = new String[n];
-            System.arraycopy(words, 0, temp, 0, n);
-
-            Arrays.sort(temp, new Comparator<String>() {
-
-                @Override
-                public int compare(String a, String b) {
-                    int index1 = 0;
-                    int index2 = 0;
-                    for (int i = 0; i < Math.min(a.length(), b.length()) && index1 == index2; i++) {
-                        index1 = order.indexOf(a.charAt(i));
-                        index2 = order.indexOf(b.charAt(i));
-                    }
-
-                    if (index1 == index2 && a.length() != b.length()) {
-                        if (a.length() < b.length()) return -1;
-                        else return 1;
-                    }
-
-                    if (index1 < index2) return -1;
-                    else return 1;
-                }
-            });
-
-            int flag = 1;
-            for (int i = 0; i < n; i++) {
-                if (!words[i].equals(temp[i])) {
-                    flag = 0;
-                    break;
-                }
-            }
-
-            System.out.println(flag);
-        }
-    }
-
+    /**
+     * Finds the order of characters in the alien language.
+     *
+     * @param dict An array of words in the alien language.
+     * @param N    The number of words in the array.
+     * @param K    The size of the alphabet (number of characters).
+     * @return The order of characters in the alien language.
+     */
     public static String findOrder(String[] dict, int N, int K) {
-        Graph graph = new Graph(K);
+        Graph graph = new Graph(26);
 
         for (int i = 0; i < N - 1; i++) {
             String s1 = dict[i];
@@ -74,5 +35,19 @@ class AlienDictionary {
             }
         }
         return new TopologicalSort(graph).topSort();
+    }
+
+    /**
+     * Main method for testing the findOrder function.
+     *
+     * @param args Command line arguments (not used).
+     */
+    public static void main(String[] args) {
+        // Example usage
+        String[] dict = { "wrt", "wrf", "er", "ett", "rftt" };
+        int N = dict.length;
+        int K = 5;
+        String result = findOrder(dict, N, K);
+        System.out.println("Order of characters: " + result);
     }
 }
