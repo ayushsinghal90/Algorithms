@@ -46,6 +46,7 @@ Algorithms project will contain some commonly asked/used data structure solution
 ## Matrix
 
 - [Spring Traversal](src/main/java/org/algorithms/dataStructures/matrix/Spiral.java)
+- [Row with max 1s](src/main/java/org/algorithms/dataStructures/matrix/RowWithMax1s.java)
 
 ## String
 
