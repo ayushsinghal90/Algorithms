@@ -32,6 +32,7 @@ Algorithms project will contain some commonly asked/used data structure solution
 - [Buy Sell Stock twice](src/main/java/org/algorithms/dataStructures/dp/BuySellTwice.java)
 - [Max Rectangle Sum](src/main/java/org/algorithms/dataStructures/dp/MaxRectangle.java)
 - [Max Rectangle with zero-sum](src/main/java/org/algorithms/dataStructures/dp/RectangleSumZero.java)
+- [Gold Mine](src/main/java/org/algorithms/dataStructures/dp/GoldMine.java)
 
 ## Graph
 
