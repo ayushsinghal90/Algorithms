@@ -7,3 +7,5 @@ Algorithms project will contain some commonly asked/used data structure solution
 - [Count Inversions](src/main/java/org/algorithms/dataStructures/array/CountInversions.java)
 - [Find Duplicate](src/main/java/org/algorithms/dataStructures/array/FindDuplicate.java)
 - [Kadane](src/main/java/org/algorithms/dataStructures/array/Kadane.java)
+- [Find Kth Smallest](src/main/java/org/algorithms/dataStructures/array/KthSmallest.java)
+- [K Smallest Together](src/main/java/org/algorithms/dataStructures/array/KSmallestTogether.java)
