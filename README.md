@@ -42,6 +42,8 @@ Algorithms project will contain some commonly asked/used data structure solution
 ## Linked List
 
 - [Merge K linked list](src/main/java/org/algorithms/dataStructures/linkedList/KMerge.java)
+- [Detect loop](src/main/java/org/algorithms/dataStructures/linkedList/DetectLoop.java)
+- [Delete loop](src/main/java/org/algorithms/dataStructures/linkedList/DeleteLoop.java)
 
 ## Matrix
 
