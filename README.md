@@ -23,6 +23,7 @@ Algorithms project will contain some commonly asked/used data structure solution
 - [N Queen](src/main/java/org/algorithms/dataStructures/backtracking/NQueen.java)
 - [Remove Parenthesis](src/main/java/org/algorithms/dataStructures/backtracking/RemoveParenthesis.java)
 - [Word Break](src/main/java/org/algorithms/dataStructures/backtracking/WordBreak.java)
+- [Number of Islands](src/main/java/org/algorithms/dataStructures/backtracking/NumberOfIslands.java)
 
 ## Dynamic Programming
 
