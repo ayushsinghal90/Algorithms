@@ -1,6 +1,14 @@
 # Algorithms
 Algorithms project will contain some commonly asked/used data structure solutions to help other understand and use them in the simplest and most elegant ways.
 
+# Contributing
+
+This repository is contribution friendly :smiley:. If you'd like to add or improve an algorithm,
+your contribution is welcome! 
+
+Please be sure to check out the [Wiki](https://github.com/ayushsinghal90/Algorithms/wiki) for instructions.
+
+
 # Data Structures
 ## Array
 
