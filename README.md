@@ -10,5 +10,10 @@ Algorithms project will contain some commonly asked/used data structure solution
 - [Find Kth Smallest](src/main/java/org/algorithms/dataStructures/array/KthSmallest.java)
 - [K Smallest Together](src/main/java/org/algorithms/dataStructures/array/KSmallestTogether.java)
 - [Median of Two Sorted array](src/main/java/org/algorithms/dataStructures/array/MedianTwoSorted.java)
+- [Merge Intervals](src/main/java/org/algorithms/dataStructures/array/MergeIntervals.java)
+- [Merge Sorted Array](src/main/java/org/algorithms/dataStructures/array/MergeSortedArray.java)
 - [Minimum number of jumps](src/main/java/org/algorithms/dataStructures/array/MinJumps.java)
+- [Next permutation](src/main/java/org/algorithms/dataStructures/array/NextPermutation.java)
+- [Quick Sort](src/main/java/org/algorithms/dataStructures/array/QuickSort.java)
 - [Trapping Rain Water](src/main/java/org/algorithms/dataStructures/array/TrappingRainWater.java)
+
