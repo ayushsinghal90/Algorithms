@@ -24,6 +24,29 @@ class RemoveParenthesis {
     Set<String> res = new HashSet<>();
 
     /**
+     * Main method to execute the program.
+     *
+     * @param args Command-line arguments (not used in this example)
+     */
+    public static void main(String[] args) {
+        // Example usage
+        RemoveParenthesis removeParenthesis = new RemoveParenthesis();
+
+        // Input string with parentheses
+        String inputString = "()())()";
+
+        // Remove invalid parentheses
+        List<String> validExpressions = removeParenthesis.removeInvalidParentheses(inputString);
+
+        // Display the result
+        System.out.println("Original String: " + inputString);
+        System.out.println("Valid Expressions After Removing Invalid Parentheses: ");
+        for (String expression : validExpressions) {
+            System.out.println(expression);
+        }
+    }
+
+    /**
      * Removes invalid parentheses from the given string.
      *
      * @param s: The input string containing parentheses
@@ -89,29 +112,6 @@ class RemoveParenthesis {
 
             // Backtrack: Remove the last appended character to explore other possibilities
             expression.deleteCharAt(length);
-        }
-    }
-
-    /**
-     * Main method to execute the program.
-     *
-     * @param args Command-line arguments (not used in this example)
-     */
-    public static void main(String[] args) {
-        // Example usage
-        RemoveParenthesis removeParenthesis = new RemoveParenthesis();
-
-        // Input string with parentheses
-        String inputString = "()())()";
-
-        // Remove invalid parentheses
-        List<String> validExpressions = removeParenthesis.removeInvalidParentheses(inputString);
-
-        // Display the result
-        System.out.println("Original String: " + inputString);
-        System.out.println("Valid Expressions After Removing Invalid Parentheses: ");
-        for (String expression : validExpressions) {
-            System.out.println(expression);
         }
     }
 }

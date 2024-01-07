@@ -40,14 +40,12 @@ public class WorkBreakMemorization {
      */
     static List<String> cal(String s, HashSet<String> mp) {
         // If the combinations for the given string already exist in the HashMap, return them
-        if (m.containsKey(s))
-            return m.get(s);
+        if (m.containsKey(s)) return m.get(s);
 
         List<String> result = new ArrayList<>();
 
         // If the given string itself is a valid word, add it to the result
-        if (mp.contains(s))
-            result.add(s);
+        if (mp.contains(s)) result.add(s);
 
         // Iterating through all possible splits of the string
         for (int i = 1; i < s.length(); i++) {
