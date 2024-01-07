@@ -17,8 +17,44 @@ Algorithms project will contain some commonly asked/used data structure solution
 - [Quick Sort](src/main/java/org/algorithms/dataStructures/array/QuickSort.java)
 - [Trapping Rain Water](src/main/java/org/algorithms/dataStructures/array/TrappingRainWater.java)
 
+## Backtracking
+
+- [Mine Sweeper](src/main/java/org/algorithms/dataStructures/backtracking/MineSweeper.java)
+- [N Queen](src/main/java/org/algorithms/dataStructures/backtracking/NQueen.java)
+- [Remove Parenthesis](src/main/java/org/algorithms/dataStructures/backtracking/RemoveParenthesis.java)
+- [Word Break](src/main/java/org/algorithms/dataStructures/backtracking/WordBreak.java)
+
+## Dynamic Programming
+
+- [Alternate Maximum sum](src/main/java/org/algorithms/dataStructures/dp/AlternateMax.java)
+- [Boolean Parentheses](src/main/java/org/algorithms/dataStructures/dp/BooleanParentheses.java)
+- [Buy Sell Stock K times](src/main/java/org/algorithms/dataStructures/dp/BuySellK.java)
+- [Buy Sell Stock twice](src/main/java/org/algorithms/dataStructures/dp/BuySellTwice.java)
+- [Max Rectangle Sum](src/main/java/org/algorithms/dataStructures/dp/MaxRectangle.java)
+- [Max Rectangle with zero-sum](src/main/java/org/algorithms/dataStructures/dp/RectangleSumZero.java)
+
+## Graph
+
+- [Alien Dictionary order](src/main/java/org/algorithms/dataStructures/graph/AlienDictionary.java)
+- [Dijkstra (Shortest path algo)](src/main/java/org/algorithms/dataStructures/graph/Dijkstra.java)
+- [Topological Sort](src/main/java/org/algorithms/dataStructures/graph/TopologicalSort.java)
+
+## Linked List
+
+- [Merge K linked list](src/main/java/org/algorithms/dataStructures/linkedList/KMerge.java)
+
+## Matrix
+
+- [Spring Traversal](src/main/java/org/algorithms/dataStructures/matrix/Spiral.java)
+
+## String
+
+- [Longest Repeating Sequence](src/main/java/org/algorithms/dataStructures/string/LongestRepeatingSequence.java)
+- [Word Wrap](src/main/java/org/algorithms/dataStructures/string/WordWrap.java)
+
 ## Tree
 
 - [Build Tree](src/main/java/org/algorithms/dataStructures/tree/BuildTree.java)
 - [Lowest Common Ancestor](src/main/java/org/algorithms/dataStructures/tree/LowestCommonAncestor.java)
 - [Distance between two node](src/main/java/org/algorithms/dataStructures/tree/TwoNodeDistance.java)
+
