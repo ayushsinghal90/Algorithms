@@ -44,6 +44,7 @@ Please be sure to check out the [Wiki](https://github.com/ayushsinghal90/Algorit
 - [Max Rectangle with zero-sum](src/main/java/org/algorithms/dataStructures/dp/RectangleSumZero.java)
 - [Gold Mine](src/main/java/org/algorithms/dataStructures/dp/GoldMine.java)
 - [Coin change](src/main/java/org/algorithms/dataStructures/dp/CoinChange.java)
+- [Max matches between elements](src/main/java/org/algorithms/dataStructures/dp/MaxMatches.java)
 
 ## Graph
 
