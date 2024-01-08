@@ -78,3 +78,7 @@ Please be sure to check out the [Wiki](https://github.com/ayushsinghal90/Algorit
 ## Union Find
 
 - [Evaluate Division](src/main/java/org/algorithms/dataStructures/unionFind/EvaluateDivision.java)
+
+## Least Recently Used
+
+- [LRU](src/main/java/org/algorithms/dataStructures/leastRecentlyUsed)
