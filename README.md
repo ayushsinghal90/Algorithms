@@ -51,6 +51,7 @@ Please be sure to check out the [Wiki](https://github.com/ayushsinghal90/Algorit
 - [Alien Dictionary order](src/main/java/org/algorithms/dataStructures/graph/AlienDictionary.java)
 - [Dijkstra (Shortest path algo)](src/main/java/org/algorithms/dataStructures/graph/Dijkstra.java)
 - [Topological Sort](src/main/java/org/algorithms/dataStructures/graph/TopologicalSort.java)
+- [Reachable urls](src/main/java/org/algorithms/dataStructures/graph/ReachableUrls.java)
 
 ## Linked List
 
