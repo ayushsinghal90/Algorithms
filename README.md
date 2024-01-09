@@ -20,10 +20,8 @@ Please be sure to check out the [Wiki](https://github.com/ayushsinghal90/Algorit
 - [Median of Two Sorted array](src/main/java/org/algorithms/dataStructures/array/MedianTwoSorted.java)
 - [Merge Intervals](src/main/java/org/algorithms/dataStructures/array/MergeIntervals.java)
 - [Merge Sorted Array](src/main/java/org/algorithms/dataStructures/array/MergeSortedArray.java)
-- [Minimum number of jumps](src/main/java/org/algorithms/dataStructures/array/MinJumps.java)
 - [Next permutation](src/main/java/org/algorithms/dataStructures/array/NextPermutation.java)
 - [Quick Sort](src/main/java/org/algorithms/dataStructures/array/QuickSort.java)
-- [Trapping Rain Water](src/main/java/org/algorithms/dataStructures/array/TrappingRainWater.java)
 - [Bus Routes](src/main/java/org/algorithms/dataStructures/array/BusRoutes.java)
 
 ## Backtracking
@@ -63,6 +61,11 @@ Please be sure to check out the [Wiki](https://github.com/ayushsinghal90/Algorit
 
 - [Spring Traversal](src/main/java/org/algorithms/dataStructures/matrix/Spiral.java)
 - [Row with max 1s](src/main/java/org/algorithms/dataStructures/matrix/RowWithMax1s.java)
+
+## Sliding Window
+
+- [Minimum number of jumps](src/main/java/org/algorithms/dataStructures/slidingWindow/MinJumps.java)
+- [Trapping Rain Water](src/main/java/org/algorithms/dataStructures/slidingWindow/TrappingRainWater.java)
 
 ## String
 

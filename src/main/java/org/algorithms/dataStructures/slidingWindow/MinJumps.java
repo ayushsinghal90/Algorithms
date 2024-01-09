@@ -1,4 +1,4 @@
-package org.algorithms.dataStructures.array;
+package org.algorithms.dataStructures.slidingWindow;
 
 import java.io.IOException;
 
