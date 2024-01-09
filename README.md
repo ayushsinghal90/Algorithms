@@ -69,6 +69,7 @@ Please be sure to check out the [Wiki](https://github.com/ayushsinghal90/Algorit
 
 ## String
 
+- [Anagram Together](src/main/java/org/algorithms/dataStructures/string/AnagramTogether.java)
 - [Longest Repeating Sequence](src/main/java/org/algorithms/dataStructures/string/LongestRepeatingSequence.java)
 - [Word Wrap](src/main/java/org/algorithms/dataStructures/string/WordWrap.java)
 
