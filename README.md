@@ -80,6 +80,7 @@ Please be sure to check out the [Wiki](https://github.com/ayushsinghal90/Algorit
 - [Build Tree](src/main/java/org/algorithms/dataStructures/tree/BuildTree.java)
 - [Lowest Common Ancestor](src/main/java/org/algorithms/dataStructures/tree/LowestCommonAncestor.java)
 - [Distance between two node](src/main/java/org/algorithms/dataStructures/tree/TwoNodeDistance.java)
+- [Boundary Traversal](src/main/java/org/algorithms/dataStructures/tree/BoundaryTraversal.java)
 
 ## Union Find
 
