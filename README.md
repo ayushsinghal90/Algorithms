@@ -64,6 +64,7 @@ Please be sure to check out the [Wiki](https://github.com/ayushsinghal90/Algorit
 - [Spring Traversal](src/main/java/org/algorithms/dataStructures/matrix/Spiral.java)
 - [Row with max 1s](src/main/java/org/algorithms/dataStructures/matrix/RowWithMax1s.java)
 - [Kth Smallest](src/main/java/org/algorithms/dataStructures/matrix/KthSmallest.java)
+- [Count no of islands](src/main/java/org/algorithms/dataStructures/matrix/NoOfIslands.java)
 
 ## Sliding Window
 
