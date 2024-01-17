@@ -24,6 +24,7 @@ Please be sure to check out the [Wiki](https://github.com/ayushsinghal90/Algorit
 - [Quick Sort](src/main/java/org/algorithms/dataStructures/array/QuickSort.java)
 - [Bus Routes](src/main/java/org/algorithms/dataStructures/array/BusRoutes.java)
 - [Triplet Sum](src/main/java/org/algorithms/dataStructures/array/TripletSum.java)
+- [Search in rotated array](src/main/java/org/algorithms/dataStructures/array/SearchRotated.java)
 
 ## Backtracking
 
