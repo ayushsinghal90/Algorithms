@@ -84,6 +84,7 @@ Please be sure to check out the [Wiki](https://github.com/ayushsinghal90/Algorit
 - [Lowest Common Ancestor](src/main/java/org/algorithms/dataStructures/tree/LowestCommonAncestor.java)
 - [Distance between two node](src/main/java/org/algorithms/dataStructures/tree/TwoNodeDistance.java)
 - [Boundary Traversal](src/main/java/org/algorithms/dataStructures/tree/BoundaryTraversal.java)
+- [Reverse Order Traversal](src/main/java/org/algorithms/dataStructures/tree/ReverseOrderTraversal.java)
 
 ## Union Find
 
