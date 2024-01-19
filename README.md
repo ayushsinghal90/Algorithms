@@ -46,6 +46,7 @@ Please be sure to check out the [Wiki](https://github.com/ayushsinghal90/Algorit
 - [Coin change](src/main/java/org/algorithms/dataStructures/dp/CoinChange.java)
 - [Max matches between elements](src/main/java/org/algorithms/dataStructures/dp/MaxMatches.java)
 - [Maximum profit job scheduling](src/main/java/org/algorithms/dataStructures/dp/MaxProfitJobScheduling.java)
+- [Maximum Sum Increasing Subsequence](src/main/java/org/algorithms/dataStructures/dp/MaxSumIncSeq.java)
 
 ## Graph
 
