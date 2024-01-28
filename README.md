@@ -33,6 +33,7 @@ Please be sure to check out the [Wiki](https://github.com/ayushsinghal90/Algorit
 - [Remove Parenthesis](src/main/java/org/algorithms/dataStructures/backtracking/RemoveParenthesis.java)
 - [Word Break](src/main/java/org/algorithms/dataStructures/backtracking/WordBreak.java)
 - [Number of Islands](src/main/java/org/algorithms/dataStructures/backtracking/NumberOfIslands.java)
+- [Unique Paths](src/main/java/org/algorithms/dataStructures/backtracking/UniquePaths.java)
 
 ## Dynamic Programming
 
