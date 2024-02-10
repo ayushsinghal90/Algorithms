@@ -53,7 +53,7 @@ class MinJumps {
         int k = s;       // Maximum reachable position in the current range
 
         // Traverse the array to calculate the minimum number of jumps
-        while (i < j) {
+        while (i < arr.length) {
             // If the end of the array is reached, return the number of jumps
             if (i == arr.length - 1) {
                 return j;

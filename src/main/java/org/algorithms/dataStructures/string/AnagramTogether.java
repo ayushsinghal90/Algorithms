@@ -81,9 +81,7 @@ public class AnagramTogether {
         // Build the sorted string
         StringBuilder sortedString = new StringBuilder();
         for (int i = 0; i < 26; i++) {
-            for (int j = 0; j < charCount[i]; j++) {
-                sortedString.append((char) (i + 'a'));
-            }
+            sortedString.append(String.valueOf((char) (i + 'a')).repeat(Math.max(0, charCount[i])));
         }
 
         return sortedString.toString();

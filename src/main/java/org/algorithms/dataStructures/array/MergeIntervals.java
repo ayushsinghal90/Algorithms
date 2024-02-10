@@ -48,16 +48,16 @@ public class MergeIntervals {
         List<int[]> result = new ArrayList<>();
 
         // Iterate through the sorted intervals and merge overlapping ones
-        for (int i = 0; i < intervals.length; i++) {
+        for (int[] interval : intervals) {
             int size = result.size();
 
             // If the result list is empty or the current interval does not overlap with the last one
-            if (size == 0 || result.get(size - 1)[1] < intervals[i][0]) {
+            if (size == 0 || result.get(size - 1)[1] < interval[0]) {
                 // Add the current interval to the result list
-                result.add(intervals[i]);
+                result.add(interval);
             } else {
                 // Merge the current interval with the last one in the result list
-                result.get(size - 1)[1] = Math.max(result.get(size - 1)[1], intervals[i][1]);
+                result.get(size - 1)[1] = Math.max(result.get(size - 1)[1], interval[1]);
             }
         }
 
